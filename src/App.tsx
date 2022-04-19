@@ -1,11 +1,10 @@
 import React from 'react';
+import './styles/index.css';
 
 export const App = () => {
   return (
     <div>
-      <h1>
-        Hi react app - {process.env.NODE_ENV} {process.env.name}
-      </h1>
+      React Template in Webpack, Babel, Typescript, Tailwindcss, Eslint, Prettier
     </div>
   );
 };
