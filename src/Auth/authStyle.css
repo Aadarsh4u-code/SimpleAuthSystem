@@ -1,0 +1,56 @@
+.signInFormContainer {
+   width: 50%;
+   height: auto;
+   background: white;
+   border: 1px solid lightgray;
+   border-radius: 8px;
+}
+
+h1 {
+   text-align: center;
+   margin-top: 10px;
+   text-decoration: underline;
+}
+
+.section {
+   margin-top: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.input {
+   width: 80%;
+   height: 40px;
+   border: 1px solid skyblue;
+   padding: 10px;
+   margin: 20px;
+}
+
+.radioBtn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0;
+   padding: 0;
+}
+
+.signInSignUpBtn {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   height: 50px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+.button {
+   background: skyblue;
+   width: 200px;
+   height: 50px;
+   cursor: pointer;
+   padding: 10px;
+   /*color: whitesmoke;*/
+   border-radius: 4px;
+}
